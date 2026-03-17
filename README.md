@@ -1,29 +1,52 @@
-# Hi, I'm Harnek Singh 👋
+# Hi, I'm Harnek Singh
 
-Senior Data Engineer with 12+ years of experience building scalable cloud data platforms using Snowflake, AWS, and Azure.
+I’m a Senior Data Engineer with 12+ years of experience working on large-scale data platforms, mostly around Snowflake and cloud (AWS/Azure).
 
-## 🚀 What I Do
-- Design and build scalable ELT pipelines
-- Optimize Snowflake performance (clustering, partitioning)
-- Build cloud-native data platforms
-- Implement data governance and security (RBAC, masking)
+Over the last few years, I’ve been focused on building reliable, production-grade data systems — the kind that actually hold up under scale, not just in design docs.
 
-## 🧰 Tech Stack
-- Snowflake | SQL | Python
-- AWS (S3, IAM) | Azure (ADLS)
-- Airflow | Terraform | DBT
-- Data Modeling | Data Vault | Lakehouse
+---
 
-## 📌 Key Highlights
-- Migrated 60TB data warehouse to Snowflake
-- Improved query performance by 35%
-- Built automated ELT pipelines reducing latency from hours → minutes
+## What I usually work on
 
-## 📂 Featured Projects
-👉 Check repositories below for real-world data engineering projects
+- Designing ELT pipelines that don’t rely on full reloads
+- Fixing slow Snowflake queries (clustering, partitioning, pruning)
+- Building end-to-end data platforms from ingestion → transformation → consumption
+- Setting up governance properly (RBAC, masking, access control)
 
-## 🌍 Open to
-Remote Senior Data Engineer / Snowflake roles
+---
 
-## 🔗 Connect
+## Stack I’ve worked with
+
+- Snowflake, SQL, Python  
+- AWS (S3, IAM), Azure (ADLS)  
+- Airflow, Terraform, DBT  
+- Data modeling (dimensional, data vault), lakehouse patterns  
+
+---
+
+## A few things I’ve done
+
+- Migrated a ~60TB warehouse to Snowflake (with minimal downtime)
+- Improved query performance by ~35% by fixing storage + query patterns
+- Built pipelines that reduced data latency from hours to near real-time
+
+---
+
+## Projects
+
+I’ve started putting together a few sample projects here based on patterns I’ve used in real systems  
+(mainly Snowflake, ELT, and platform design).
+
+---
+
+## Currently
+
+Open to remote roles in:
+- Senior Data Engineering
+- Snowflake / Data Platform roles
+
+---
+
+## Connect
+
 - LinkedIn: https://linkedin.com/in/hsg09
