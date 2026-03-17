@@ -24,14 +24,6 @@ Over the last few years, I’ve been focused on building reliable, production-gr
 
 ---
 
-## A few things I’ve done
-
-- Migrated a ~60TB warehouse to Snowflake (with minimal downtime)
-- Improved query performance by ~35% by fixing storage + query patterns
-- Built pipelines that reduced data latency from hours to near real-time
-
----
-
 ## Projects
 
 I’ve started putting together a few sample projects here based on patterns I’ve used in real systems  
