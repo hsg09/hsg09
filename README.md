@@ -1,3 +1,6 @@
+<img width="1288" height="419" alt="image" src="https://github.com/user-attachments/assets/2f92dc58-9146-4424-90ac-005de5fc3e80" />
+
+
 # Hi, I'm Harnek Singh
 
 I’m a Senior Data Engineer with 12+ years of experience working on large-scale data platforms, mostly around Snowflake and cloud (AWS/Azure).
