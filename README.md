@@ -1,47 +1,61 @@
 <img width="1288" height="419" alt="image" src="https://github.com/user-attachments/assets/2f92dc58-9146-4424-90ac-005de5fc3e80" />
 
 
-# Hi, I'm Harnek Singh
+# Hi, I'm Harnek Singh 👋
 
-I’m a Senior Data Engineer with 12+ years of experience working on large-scale data platforms, mostly around Snowflake and cloud (AWS/Azure).
+I’m a **Senior Data Engineer** with **12+ years of experience** working on large-scale data platforms, mostly around **Snowflake** and cloud (**AWS/Azure**).
 
 Over the last few years, I’ve been focused on building reliable, production-grade data systems — the kind that actually hold up under scale, not just in design docs.
 
 ---
 
-## What I usually work on
+## 🛠️ What I usually work on
 
-- Designing ELT pipelines that don’t rely on full reloads
-- Fixing slow Snowflake queries (clustering, partitioning, pruning)
-- Building end-to-end data platforms from ingestion → transformation → consumption
-- Setting up governance properly (RBAC, masking, access control)
-
----
-
-## Stack I’ve worked with
-
-- Snowflake, SQL, Python  
-- AWS (S3, IAM), Azure (ADLS)  
-- Airflow, Terraform, DBT  
-- Data modeling (dimensional, data vault), lakehouse patterns  
+- **Designing ELT pipelines** that don’t rely on full reloads (incremental loading, CDC)
+- **Fixing slow Snowflake queries** (optimizing clustering, partitioning, and pruning)
+- **Building end-to-end data platforms** from ingestion → transformation → consumption
+- **Setting up governance properly** (RBAC, dynamic data masking, access control policies)
 
 ---
 
-## Projects
+## 💻 Tech Stack
 
-I’ve started putting together a few sample projects here based on patterns I’ve used in real systems  
-(mainly Snowflake, ELT, and platform design).
+- **Data Warehousing & Processing:** Snowflake, SQL, Python
+- **Cloud Infrastructure:** AWS (S3, IAM), Azure (ADLS)
+- **Orchestration & Transformation:** Airflow, Terraform, dbt
+- **Architecture & Modeling:** Medallion Architecture, Dimensional Modeling (Kimball), Data Vault, Lakehouse patterns
 
 ---
 
-## Currently
+## 🚀 Projects
 
-Open to remote roles in:
+I’ve started putting together a few sample projects here based on patterns I’ve used in real systems (mainly Snowflake, ELT, and platform design).
+
+### [🏢 Enterprise ELT Data Pipeline (AWS S3 → Snowflake → dbt)](https://github.com/hsg09/AWS_DBT_Snowflake)
+A scalable, production-grade ELT pipeline that synchronizes transactional e-commerce data from AWS S3 into an analytical Star Schema in Snowflake.
+* **Key Features:** Medallion Architecture, Zero-DDL dynamic ingestion with Snowpark, PII Masking & RBAC, 68+ automated dbt tests, Kimball dimensional modeling.
+* **Stack:** Snowflake, AWS S3, dbt Core, Apache Airflow, Snowpark Python.
+
+### [⚡ Snowflake Kafka Streaming Platform](https://github.com/hsg09/Snowflake-Streaming-Platform)
+An enterprise-grade benchmark platform for evaluating Snowflake's two Kafka ingestion modes (Classic Snowpipe vs. Snowpipe Streaming).
+* **Key Features:** Direct row insertion via Streaming API, real-time analytics pipeline, JMX metrics exported to Prometheus/Grafana, full comparison of throughput and p95 latency.
+* **Stack:** Snowflake, Apache Kafka, Python, Docker, Prometheus, Grafana.
+
+### [🏠 Airbnb End-to-End Data Engineering Project](https://github.com/hsg09/Airbnb_Snowflake_DBT_Data_Engineer_Project)
+A complete end-to-end data engineering pipeline processing Airbnb listings, bookings, and hosts data through a medallion architecture.
+* **Key Features:** Incremental loading, Slowly Changing Dimensions (SCD Type 2 snapshotting), dynamic SQL generation with Jinja, and intermediate ephemeral dbt models.
+* **Stack:** Snowflake, dbt, AWS, Python.
+
+---
+
+## 🎯 Currently
+
+**Open to remote roles in:**
 - Senior Data Engineering
 - Snowflake / Data Platform roles
 
 ---
 
-## Connect
+## 📫 Connect with me
 
-- LinkedIn: https://linkedin.com/in/hsg09
+- **LinkedIn:** [linkedin.com/in/hsg09](https://linkedin.com/in/hsg09)
