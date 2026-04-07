@@ -46,6 +46,11 @@ A complete end-to-end data engineering pipeline processing Airbnb listings, book
 * **Key Features:** Incremental loading, Slowly Changing Dimensions (SCD Type 2 snapshotting), dynamic SQL generation with Jinja, and intermediate ephemeral dbt models.
 * **Stack:** Snowflake, dbt, AWS, Python.
 
+### [🤖 Snowflake Cortex Slack Bot](https://github.com/hsg09/snowflake_slack_bot-slack_bot_with_graphs)
+A Slack bot integrating Snowflake Cortex Agents to provide AI-powered data analysis, query performance insights, and cost optimization recommendations directly in Slack.
+* **Key Features:** Natural language SQL querying, inline tabular data display, Vega-Lite chart rendering to PNG, and conversational memory.
+* **Stack:** Python, Snowflake Cortex Agent API, Slack Bolt, pandas, Vega-Lite.
+
 ---
 
 ## 🎯 Currently
