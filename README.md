@@ -2,7 +2,6 @@
 
 
 # Hi, I'm Harnek Singh 👋
-
 I’m a **Senior Data Engineer** with **12+ years of experience** working on large-scale data platforms, mostly around **Snowflake** and cloud (**AWS/Azure**).
 
 Over the last few years, I’ve been focused on building reliable, production-grade data systems — the kind that actually hold up under scale, not just in design docs.
@@ -30,6 +29,11 @@ Over the last few years, I’ve been focused on building reliable, production-gr
 ## 🚀 Projects
 
 I’ve started putting together a few sample projects here based on patterns I’ve used in real systems (mainly Snowflake, ELT, and platform design).
+
+### [❄️ SnowVault Enterprise Data Platform](https://github.com/hsg09/SnowVault-Enterprise-Data-Platform)
+A production-ready, multi-cloud Snowflake data platform architecture managed entirely via Infrastructure as Code (IaC).
+* **Key Features:** Multi-environment deployments (Staging/Prod) via Terraform, automated RBAC governance, cross-region replication, Snowflake Dynamic Tables, and Iceberg integrations.
+* **Stack:** Snowflake, Terraform, CI/CD.
 
 ### [🏢 Enterprise ELT Data Pipeline (AWS S3 → Snowflake → dbt)](https://github.com/hsg09/AWS_DBT_Snowflake)
 A scalable, production-grade ELT pipeline that synchronizes transactional e-commerce data from AWS S3 into an analytical Star Schema in Snowflake.
